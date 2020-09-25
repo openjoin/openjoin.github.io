@@ -11,8 +11,7 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        
-        TARGET_REPO: vijaysoul/vijaysoul.github.io
-        TARGET_BRANCH: master
+        TARGET_REPO: openjoin/openjoin.github.io
+        TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: npm install && npm run build
         BUILD_DIR: dist/
