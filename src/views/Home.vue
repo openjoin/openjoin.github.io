@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+        <br><br><br>
         <img alt="Home Image" src="/assets/home.svg" height="250" />
         <HelloWorld msg="Open Source is for everyone, yes you!" />
         <h2>OPEN SOURCE is not about code, it is about people and collaboration</h2>
