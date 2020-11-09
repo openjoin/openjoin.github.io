@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <center>
-        <h2>About Page Now Under Construction</h2>
+        <h2>Contact Page Now Under Construction</h2>
         <br>
     </center>
     <Footer/>
