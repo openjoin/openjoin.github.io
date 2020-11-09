@@ -37,7 +37,7 @@
                         <div class="media-left">
                            <figure class="image is-64x64">
                                 <b-image
-                                    src="https://readyrefrigeration.ca/sites/default/files/styles/headshot/adaptive-image/public/nobody.jpg"
+                                    src="https://avatars3.githubusercontent.com/u/22113485?s=400&u=73dc0bd949e873a0cd09b86bcf45d10953da049e&v=4"
                                     class="home-img"
                                 ></b-image>
                            </figure>
@@ -45,10 +45,10 @@
                         <div class="media-content">
                            <div class="content">
                               <h4>
-                                 <a target="_blank" href="#">Sample</a>
+                                 <a target="_blank" href="#">E.Vijay</a>
                               </h4>
                               <p>
-                                 Sample job at <a target="_blank" href="#">You Company</a>
+                                 Sample job at <a target="_blank" href="#">FreeLancer</a>
                               </p>
                            </div>
                         </div>
