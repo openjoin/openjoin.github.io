@@ -12,7 +12,8 @@
                <div class="column">
                   <center>
                      <h1>Open Source is for everyone, yes you!</h1>
-                     <p><span class="special">OPEN SOURCE</span> is not about code, it is about people and collaboration</p>
+                     <p><span class="special">OPEN SOURCE</span> is not about code, it is about people and collaboration.</p>
+                     <h5><span class="qute">“</span>Use this plateform to publish your opensource projects..<span class="qute">”</span></h5>
                   </center>
                </div>
             </div>
@@ -47,10 +48,12 @@
             </div>
          </div>
       </section>
+      <Team/>
       <Footer/>
    </div>
 </template>
 <script>
+   import Team from '@/components/Team.vue'
    import Footer from '@/components/Footer.vue'
    
    export default {
@@ -61,33 +64,62 @@
        }
      },
      components: {
+       Team,
        Footer
      }
    }
 </script>
 <style scoped>
-   h1 {
+  h1 {
     font-family: 'Lobster', cursive;
     margin-top: 3em;
     font-size : 50px;
-   }
-   h4{
+    color: black;
+  }
+  h4{
     font-family: 'Lobster', cursive;
+    color: black;
     margin-top: 1em;
-   }
-   p {
+  }
+  h5 {
+    color :red;
+    font-size : 20px;
+    font-weight: bold;
+  }
+  p {
+    color: maroon;
     font-family: 'Kaushan Script', cursive;
-   }
-   .home-img {
+  }
+  .home-img {
     margin-top: 4em;
-   }
-   .home-top {
+  }
+  .home-top {
      margin-bottom: 3em;
-   }
-   .special {
+  }
+  .special {
      padding: 2px; 
      background-color: #ffcfe2;
      color: maroon;
-     font-family: 'Kaushan Script', cursive;
-   }
+     font-family: cursive;
+     border-radius: 5px;
+  }
+  .qute {
+    font-size: 50px;
+  }
+
+  @media (max-width: 991.98px) {
+    h1 {
+      font-family: 'Lobster', cursive;
+      margin-top: 1em;
+      font-size : 30px;
+    }
+    h4{
+      font-family: 'Lobster', cursive;
+      margin-top: 1em;
+    }
+    .home-img {
+      margin-top: 1em;
+    }
+
+  }
 </style>

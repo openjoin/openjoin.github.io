@@ -11,22 +11,22 @@
         </template>
         <template slot="start">
             <b-navbar-item>
-              <router-link to="/" class="is-danger">Home</router-link>
+              <router-link to="/" active-class="active">Home</router-link>
             </b-navbar-item>
             <b-navbar-item>
-                <router-link to="/about">About</router-link>
+                <router-link to="/about" exact-active-class="exact-active">About</router-link>
             </b-navbar-item>
             <b-navbar-item>
-                Contact
+                <router-link to="/contact" exact-active-class="exact-active">Contact</router-link>
             </b-navbar-item>
         </template>
 
         <template slot="end">
             <b-navbar-item tag="div">
                 <div class="buttons">
-                    <a href="https://github.com/openjoin/support/issues" class="button is-danger">
-                        <strong>Join with us</strong>
-                    </a>
+                  <router-link to="/join" class="button is-danger">
+                    <strong>Join with us</strong>
+                  </router-link>
                 </div>
             </b-navbar-item>
         </template>
@@ -35,7 +35,22 @@
   </div>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
+h1 {
+  font-family: 'Lobster', cursive;
+  color: black;
+}
+h4{
+  font-family: 'Lobster', cursive;
+  color: black;
+}
+p {
+  color: maroon;
+  font-family: 'Kaushan Script', cursive;
+}
+a {
+  color: black;
+}
 .top-bar {
     width: 100%;
     height: 2em;
@@ -44,5 +59,15 @@
 .navbar {
     padding-left: 2rem;
     padding-right: 2rem;
+}
+nav a {
+  color: black;
+}
+nav a:hover,
+nav a.router-link-active,
+nav a.router-link-exact-active {
+  background-color: indianred;
+  cursor: pointer;
+  color: black;
 }
 </style>
