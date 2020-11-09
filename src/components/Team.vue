@@ -48,7 +48,7 @@
                                  <a target="_blank" href="#">E.Vijay</a>
                               </h4>
                               <p>
-                                 Sample job at <a target="_blank" href="#">FreeLancer</a>
+                                 <a target="_blank" href="#">FreeLancer</a>
                               </p>
                            </div>
                         </div>
