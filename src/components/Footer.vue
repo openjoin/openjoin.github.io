@@ -17,9 +17,7 @@
     <br class='is-hidden-desktop'>
 
     <div class="title is-6 mr-b">
-      <a href="https://openjoin.github.io">OpenJoin</a> 2020 copyright.
-      <br><br>
-      <small>Page designed by <a href="https://katheesh.buzz">кคтнєєєєєѕн</a></small>
+      <a href="https://openjoin.github.io">OpenJoin</a> 2021 copyright.
     </div>
   </footer>
   </section>
