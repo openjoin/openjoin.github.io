@@ -38,7 +38,7 @@
                            <div class="content">
                               <h4> Our Target</h4>
                               <p>
-                                 We are invested in getting you those green squares 🟩 on GitHub! Contributing to Open Source Software (OSS) is a great way for you to learn, work with different people and also network.
+                                 We are invested in getting you those green squares 💹 on GitHub! Contributing to Open Source Software (OSS) is a great way for you to learn, work with different people and also network.
                               </p>
                            </div>
                         </div>
